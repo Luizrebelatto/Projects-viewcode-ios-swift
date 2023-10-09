@@ -11,6 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let imageBackgroud = UIImageView(image: UIImage(named: "DiceBackground"))
+        imageBackgroud.frame = view.bounds
+        view.addSubview(imageBackgroud)
         // Do any additional setup after loading the view.
     }
 
