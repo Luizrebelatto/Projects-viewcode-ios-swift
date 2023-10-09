@@ -7,16 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+extension UIView {
+    func setBackgroundImg(imageName: String){
+        let imageBackgroud = UIImageView(image: UIImage(named: imageName))
+        imageBackgroud.frame = bounds
+        addSubview(imageBackgroud)
+    }
+}
 
+class ViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let imageBackgroud = UIImageView(image: UIImage(named: "DiceBackground"))
-        imageBackgroud.frame = view.bounds
-        view.addSubview(imageBackgroud)
-        // Do any additional setup after loading the view.
+        view.setBackgroundImg(imageName: "DiceBackground")
     }
-
-
 }
 
