@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294FCFA62AE300B600BCDDDE /* CalcControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FCFA52AE300B600BCDDDE /* CalcControllerViewModel.swift */; };
+		294FCFA82AE3010300BCDDDE /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FCFA72AE3010300BCDDDE /* ButtonCell.swift */; };
+		294FCFAA2AE3017700BCDDDE /* CalcHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FCFA92AE3017700BCDDDE /* CalcHeaderCell.swift */; };
+		294FCFAC2AE301CC00BCDDDE /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FCFAB2AE301CC00BCDDDE /* CalculatorButton.swift */; };
 		29FC93872ADF46BE000C449B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93862ADF46BE000C449B /* AppDelegate.swift */; };
 		29FC93892ADF46BE000C449B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93882ADF46BE000C449B /* SceneDelegate.swift */; };
-		29FC938B2ADF46BE000C449B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC938A2ADF46BE000C449B /* ViewController.swift */; };
+		29FC938B2ADF46BE000C449B /* CalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC938A2ADF46BE000C449B /* CalcController.swift */; };
 		29FC93902ADF46BF000C449B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC938F2ADF46BF000C449B /* Assets.xcassets */; };
 		29FC93932ADF46BF000C449B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FC93912ADF46BF000C449B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294FCFA52AE300B600BCDDDE /* CalcControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcControllerViewModel.swift; sourceTree = "<group>"; };
+		294FCFA72AE3010300BCDDDE /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		294FCFA92AE3017700BCDDDE /* CalcHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcHeaderCell.swift; sourceTree = "<group>"; };
+		294FCFAB2AE301CC00BCDDDE /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 		29FC93832ADF46BE000C449B /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC93862ADF46BE000C449B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FC93882ADF46BE000C449B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29FC938A2ADF46BE000C449B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29FC938A2ADF46BE000C449B /* CalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcController.swift; sourceTree = "<group>"; };
 		29FC938F2ADF46BF000C449B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29FC93922ADF46BF000C449B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29FC93942ADF46BF000C449B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +43,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294FCFA22AE2FE6100BCDDDE /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				29FC93862ADF46BE000C449B /* AppDelegate.swift */,
+				29FC93882ADF46BE000C449B /* SceneDelegate.swift */,
+				29FC938F2ADF46BF000C449B /* Assets.xcassets */,
+				29FC93912ADF46BF000C449B /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		294FCFA32AE2FFBE00BCDDDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				294FCFAB2AE301CC00BCDDDE /* CalculatorButton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		294FCFA42AE2FFC400BCDDDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				294FCFA72AE3010300BCDDDE /* ButtonCell.swift */,
+				294FCFA92AE3017700BCDDDE /* CalcHeaderCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		29FC937A2ADF46BE000C449B = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +90,11 @@
 		29FC93852ADF46BE000C449B /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				29FC93862ADF46BE000C449B /* AppDelegate.swift */,
-				29FC93882ADF46BE000C449B /* SceneDelegate.swift */,
-				29FC938A2ADF46BE000C449B /* ViewController.swift */,
-				29FC938F2ADF46BF000C449B /* Assets.xcassets */,
-				29FC93912ADF46BF000C449B /* LaunchScreen.storyboard */,
+				29FC938A2ADF46BE000C449B /* CalcController.swift */,
+				294FCFA52AE300B600BCDDDE /* CalcControllerViewModel.swift */,
+				294FCFA42AE2FFC400BCDDDE /* Views */,
+				294FCFA32AE2FFBE00BCDDDE /* Models */,
+				294FCFA22AE2FE6100BCDDDE /* Supporting */,
 				29FC93942ADF46BF000C449B /* Info.plist */,
 			);
 			path = calculator;
@@ -134,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29FC938B2ADF46BE000C449B /* ViewController.swift in Sources */,
+				29FC938B2ADF46BE000C449B /* CalcController.swift in Sources */,
+				294FCFAC2AE301CC00BCDDDE /* CalculatorButton.swift in Sources */,
 				29FC93872ADF46BE000C449B /* AppDelegate.swift in Sources */,
 				29FC93892ADF46BE000C449B /* SceneDelegate.swift in Sources */,
+				294FCFAA2AE3017700BCDDDE /* CalcHeaderCell.swift in Sources */,
+				294FCFA82AE3010300BCDDDE /* ButtonCell.swift in Sources */,
+				294FCFA62AE300B600BCDDDE /* CalcControllerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
