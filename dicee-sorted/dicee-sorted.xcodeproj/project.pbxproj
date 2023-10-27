@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294FCFAF2AEC432A00BCDDDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 294FCFAE2AEC432A00BCDDDE /* README.md */; };
 		29FC93242AD49705000C449B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93232AD49705000C449B /* AppDelegate.swift */; };
 		29FC93262AD49705000C449B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93252AD49705000C449B /* SceneDelegate.swift */; };
 		29FC93282AD49705000C449B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93272AD49705000C449B /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294FCFAE2AEC432A00BCDDDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		29FC93202AD49705000C449B /* dicee-sorted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicee-sorted.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC93232AD49705000C449B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FC93252AD49705000C449B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		29FC93172AD49705000C449B = {
 			isa = PBXGroup;
 			children = (
+				294FCFAE2AEC432A00BCDDDE /* README.md */,
 				29FC93222AD49705000C449B /* dicee-sorted */,
 				29FC93212AD49705000C449B /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294FCFAF2AEC432A00BCDDDE /* README.md in Resources */,
 				29FC93302AD49707000C449B /* LaunchScreen.storyboard in Resources */,
 				29FC932D2AD49707000C449B /* Assets.xcassets in Resources */,
 			);
