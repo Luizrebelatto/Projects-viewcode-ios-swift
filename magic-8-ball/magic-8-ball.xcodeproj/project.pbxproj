@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294FCFB12AEC458300BCDDDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 294FCFB02AEC458300BCDDDE /* README.md */; };
 		29FC93442AD6007F000C449B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93432AD6007F000C449B /* AppDelegate.swift */; };
 		29FC93462AD6007F000C449B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93452AD6007F000C449B /* SceneDelegate.swift */; };
 		29FC93482AD6007F000C449B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93472AD6007F000C449B /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294FCFB02AEC458300BCDDDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		29FC93402AD6007F000C449B /* magic-8-ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "magic-8-ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC93432AD6007F000C449B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FC93452AD6007F000C449B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		29FC93372AD6007F000C449B = {
 			isa = PBXGroup;
 			children = (
+				294FCFB02AEC458300BCDDDE /* README.md */,
 				29FC93422AD6007F000C449B /* magic-8-ball */,
 				29FC93412AD6007F000C449B /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294FCFB12AEC458300BCDDDE /* README.md in Resources */,
 				29FC93502AD60080000C449B /* LaunchScreen.storyboard in Resources */,
 				29FC934D2AD60080000C449B /* Assets.xcassets in Resources */,
 			);
