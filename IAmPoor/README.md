@@ -3,7 +3,6 @@
 ### Tecnologias Usadas
 - Swift
 - UIKit
-- Viewcode without storyboard
 - xcode 14.3.1
 
 ### Componentes Utilizados
@@ -14,11 +13,12 @@
 ### Conceitos aplicados
 - constraints
 - icone do app
+- Viewcode without storyboard
 
 ### Como executar
 1. Clone o repo `https://github.com/Luizrebelatto/Projects-viewcode-ios-swift.git`
 2. Acesse o projeto `IAmPoor` pelo xcode
-3. Execute o emulador
+3. Execute o emulador pressionando o atalho `command + B`
 
 ### Screen
 <br>    
