@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294FCFB32AEC479B00BCDDDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 294FCFB22AEC479B00BCDDDE /* README.md */; };
 		29FC93642AD78DA0000C449B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93632AD78DA0000C449B /* AppDelegate.swift */; };
 		29FC93662AD78DA0000C449B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93652AD78DA0000C449B /* SceneDelegate.swift */; };
 		29FC93682AD78DA0000C449B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC93672AD78DA0000C449B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294FCFB22AEC479B00BCDDDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		29FC93602AD78DA0000C449B /* xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC93632AD78DA0000C449B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FC93652AD78DA0000C449B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		29FC93572AD78DA0000C449B = {
 			isa = PBXGroup;
 			children = (
+				294FCFB22AEC479B00BCDDDE /* README.md */,
 				29FC93622AD78DA0000C449B /* xylophone */,
 				29FC93612AD78DA0000C449B /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				29FC93782AD79495000C449B /* Sounds in Resources */,
 				29FC93702AD78DA1000C449B /* LaunchScreen.storyboard in Resources */,
+				294FCFB32AEC479B00BCDDDE /* README.md in Resources */,
 				29FC936D2AD78DA1000C449B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
