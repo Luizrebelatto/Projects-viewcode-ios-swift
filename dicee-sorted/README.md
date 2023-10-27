@@ -20,7 +20,7 @@
 
 ### Como executar
 1. Clone o repo `https://github.com/Luizrebelatto/Projects-viewcode-ios-swift.git`
-2. Acesse o projeto `dicee-sorted` pelo xcode
+2. Acesse o projeto `cd dicee-sorted` pelo xcode
 3. Execute o emulador pressionando o atalho `command + B`
 
 ### Screen
